@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SystemSpec
 {
@@ -26,6 +22,12 @@ namespace SystemSpec
             Console.WriteLine("Number of processors: {0}", Environment.ProcessorCount);
 
             Console.WriteLine(".NET Version: {0}", Environment.Version);
+
+            Console.WriteLine("Username: {0}", Environment.UserName);
+
+            Console.WriteLine("MachineName: {0}", Environment.MachineName);
+
+            Console.WriteLine("OS 64x?: {0}", Environment.Is64BitOperatingSystem);
         }
     }
 }
